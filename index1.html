@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YGS - Coming Soon</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #ffffff;
+            --accent-color: #4f46e5;
+            --secondary-text: #888888;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bg-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 0.3rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin: 0;
+            letter-spacing: -0.05rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: var(--secondary-text);
+            margin-top: 1rem;
+            letter-spacing: 0.05rem;
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container fade-in">
+        <div class="logo">YGS</div>
+        <h1>Coming Soon</h1>
+        <p class="subtitle">YouGenerateSound • 2026</p>
+    </div>
+
+</body>
+</html>
